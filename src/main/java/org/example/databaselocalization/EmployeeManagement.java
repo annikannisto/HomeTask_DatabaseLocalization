@@ -1,7 +1,9 @@
 package org.example.databaselocalization;
 
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
 import java.awt.*;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
@@ -23,6 +25,8 @@ public class EmployeeManagement extends JFrame {
         setLayout(new GridLayout(5, 2, 10, 10));
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        ((JPanel) getContentPane()).setBorder(new EmptyBorder(12, 12, 10, 10));
 
         languageSelector = new JComboBox<>(new String[]{"English", "Farsi", "Japanese"});
         lblFirstName = new JLabel();
