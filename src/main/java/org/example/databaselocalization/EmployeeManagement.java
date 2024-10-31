@@ -26,7 +26,7 @@ public class EmployeeManagement extends JFrame {
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ((JPanel) getContentPane()).setBorder(new EmptyBorder(12, 12, 10, 10));
+        ((JPanel) getContentPane()).setBorder(new EmptyBorder(11, 11, 11, 11));
 
         languageSelector = new JComboBox<>(new String[]{"English", "Farsi", "Japanese"});
         lblFirstName = new JLabel();
