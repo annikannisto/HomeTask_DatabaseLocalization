@@ -13,8 +13,7 @@ employee_ja: Japanese records
 
 This approach allows efficient data retrieval and simplifies queries by directly selecting the table based on the user's language preference.
 
-### User Interface (UI)
-The application’s user interface includes:
+### User Interface (UI) The task’s user interface includes:
 
 ### Language Selection: 
 Users can choose English, Farsi, or Japanese.
