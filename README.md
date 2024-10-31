@@ -6,8 +6,11 @@ First start by creating the database structure:
 The database uses Table-Based Localization with separate tables for each language:
 
 employee_en: English records
+
 employee_fa: Farsi records
+
 employee_ja: Japanese records
+
 This approach allows efficient data retrieval and simplifies queries by directly selecting the table based on the user's language preference.
 
 ### User Interface (UI)
